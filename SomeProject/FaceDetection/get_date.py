@@ -21,16 +21,16 @@ def get_date_and_label():
 	#使用scipy.io来加载mat文件，还是挺好用的
 
 
-	train_img_mat=sio.loadmat('train_img.mat')
+	train_img_mat=sio.loadmat('C:/Users/zhxing/Desktop/data/train_img1.mat')
 	train_img=train_img_mat['train_img_rz']
 
-	train_label_mat=sio.loadmat('train_label.mat')
+	train_label_mat=sio.loadmat('C:/Users/zhxing/Desktop/data/train_label1.mat')
 	train_label=train_label_mat['train_labels']
 
-	test_img_mat=sio.loadmat('test_img.mat')
+	test_img_mat=sio.loadmat('C:/Users/zhxing/Desktop/data/test_img1.mat')
 	test_img=test_img_mat['test_img_rz']
 
-	test_label_mat=sio.loadmat('test_label.mat')
+	test_label_mat=sio.loadmat('C:/Users/zhxing/Desktop/data/test_label1.mat')
 	test_label=test_label_mat['test_labels']
 
 

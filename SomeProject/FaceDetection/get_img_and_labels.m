@@ -68,12 +68,12 @@ test_label=test(:,end);
 %把数据重置成四维矩阵并保存为mat形式，然后读入python进行处理
 train_sz=size(train_img);
 train_img_rz=reshape(train_img,[train_sz(1),64,64,3]);
-save('train_img.mat','train_img_rz');
+save('C:\Users\zhxing\Desktop\data\train_img1.mat','train_img_rz');
 
 
 test_sz=size(test_img);
 test_img_rz=reshape(test_img,[test_sz(1),64,64,3]);
-save('test_img.mat','test_img_rz');
+save('C:\Users\zhxing\Desktop\data\test_img1.mat','test_img_rz');
 
 %把数字标签转换为码表形式的。
 train_label_sz=size(train_label);          %大小
@@ -81,10 +81,10 @@ train_labels=zeros(train_label_sz(1),6);   %建立空label表
 for i=1:train_label_sz(1)
     train_labels(i,train_label(i))=1;
 end
-save('train_label.mat','train_labels');
+save('C:\Users\zhxing\Desktop\data\train_label1.mat','train_labels');
 test_label_sz=size(test_label);          %大小
 test_labels=zeros(test_label_sz(1),6);   %建立空label表
 for i=1:test_label_sz(1)
     test_labels(i,test_label(i))=1;
 end
-save('test_label.mat','test_labels');
+save('C:\Users\zhxing\Desktop\data\test_label1.mat','test_labels');
