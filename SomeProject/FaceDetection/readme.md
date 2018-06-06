@@ -254,10 +254,14 @@ save('test_label.mat','test_labels');
 `train_img.mat, train_label.mat, test_img.mat,test_label.mat`
 
 存储的分别是训练数据，训练标签，测试数据，测试标签。
+
 ![](https://upload-images.jianshu.io/upload_images/5252065-c7083c6323386ccb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 我这里是两份，一份是乱序的，一份是没有乱序的。训练的时候直接使用的是乱序的，这个数据量大小一般，4个文件在400m左右。
 CNN框架采用的比较简单，因为只是做一个6分类，框架如下：
+
 ![框架](https://upload-images.jianshu.io/upload_images/5252065-e3fb04ea013e1256.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 所有激活层的激活函数采用的都是relu()，权重初始化使用的是截断的高斯分布，偏置初始化卷积层为0，全连接层为0.1，训练是，全连接层采用0.5的dropout。
 损失函数采用的是交叉熵损失：[交叉熵损失函数](https://blog.csdn.net/u012162613/article/details/44239919),主要是要避免采用平方损失带来的神经元（以sigmoid为例）参数更新过慢的问题。
 优化器采用`tf.train.AdamOptimizer()`
