@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa35e0bd-f2b4-44bb-85d6-4820d99183b4" name="Default Changelist" comment="" />
+    <list default="true" id="aa35e0bd-f2b4-44bb-85d6-4820d99183b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/notebooks/demo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/demo_test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,25 +48,38 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1590350481">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notebooks/demo_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="162" column="9" lean-forward="true" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
-              <folding>
-                <element signature="e#133#142#0" expanded="true" />
-                <marker date="1540286935764" expanded="true" signature="2868:3487" ph="..." />
-                <marker date="1540286935764" expanded="true" signature="3588:3589" ph="..." />
-                <marker date="1540286935764" expanded="true" signature="3588:3593" ph="..." />
-              </folding>
+            <state relative-caret-position="995">
+              <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/eval_ssd_network.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="107">
@@ -74,6 +89,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/caffe_to_tensorflow.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -90,6 +110,9 @@
       <find>visual</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -99,11 +122,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-50" />
-    <option name="y" value="45" />
+    <option name="x" value="300" />
+    <option name="y" value="68" />
     <option name="width" value="1400" />
-    <option name="height" value="820" />
+    <option name="height" value="904" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -120,6 +144,11 @@
               <item name="SSD-Tensorflow-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="SSD-Tensorflow-master" type="462c0819:PsiDirectoryNode" />
               <item name="checkpoints" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SSD-Tensorflow-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SSD-Tensorflow-master" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,19 +215,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-50" y="45" width="1400" height="820" extended-state="0" />
+    <frame x="300" y="68" width="1400" height="904" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3551674" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32987013" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26363635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -228,19 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notebooks/demo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="162" column="9" lean-forward="true" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
-          <folding>
-            <element signature="e#133#142#0" expanded="true" />
-            <marker date="1540286935764" expanded="true" signature="2868:3487" ph="..." />
-            <marker date="1540286935764" expanded="true" signature="3588:3589" ph="..." />
-            <marker date="1540286935764" expanded="true" signature="3588:3593" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eval_ssd_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -248,6 +264,16 @@
           <folding>
             <element signature="e#764#775#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/caffe_to_tensorflow.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebooks/demo_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="995">
+          <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
         </state>
       </provider>
     </entry>

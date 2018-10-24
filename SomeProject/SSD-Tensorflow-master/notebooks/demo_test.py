@@ -21,7 +21,7 @@ sys.path.append('./SSD-Tensorflow/')
 slim = tf.contrib.slim
 
 # TensorFlow session
-gpu_options = tf.GPUOptions(allow_growth=False)
+gpu_options = tf.GPUOptions(allow_growth=True)
 config = tf.ConfigProto(log_device_placement=False, gpu_options=gpu_options)
 isess = tf.InteractiveSession(config=config)
 l_VOC_CLASS = ['aeroplane', 'bicycle', 'bird',
