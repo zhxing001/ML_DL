@@ -63,7 +63,7 @@ tf.app.flags.DEFINE_boolean(
 # Main evaluation flags.
 # =========================================================================== #
 tf.app.flags.DEFINE_integer(
-    'num_classes', 21, 'Number of classes to use in the dataset.')
+    'num_classes', 2, 'Number of classes to use in the dataset.')
 tf.app.flags.DEFINE_integer(
     'batch_size', 1, 'The number of samples in each batch.')
 tf.app.flags.DEFINE_integer(

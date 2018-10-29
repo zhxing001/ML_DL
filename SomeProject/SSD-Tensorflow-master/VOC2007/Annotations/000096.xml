@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>000096.jpg</filename>
+	<path>C:\Users\zhxing\Desktop\VOCtrainval_06-Nov-2007\VOCdevkit\MyDate\JPEGImages\000096.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>981</width>
+		<height>1233</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>DJI</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>330</xmin>
+			<ymin>583</ymin>
+			<xmax>673</xmax>
+			<ymax>716</ymax>
+		</bndbox>
+	</object>
+</annotation>

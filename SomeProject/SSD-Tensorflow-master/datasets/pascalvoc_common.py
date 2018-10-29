@@ -21,6 +21,7 @@ from datasets import dataset_utils
 
 slim = tf.contrib.slim
 
+'''
 VOC_LABELS = {
     'none': (0, 'Background'),
     'aeroplane': (1, 'Vehicle'),
@@ -43,6 +44,11 @@ VOC_LABELS = {
     'sofa': (18, 'Indoor'),
     'train': (19, 'Vehicle'),
     'tvmonitor': (20, 'Indoor'),
+}
+'''
+VOC_LABELS = {
+    'none': (0, 'Background'),
+    'DJI': (1, 'Vehicle'),
 }
 
 

@@ -64,7 +64,7 @@ DIRECTORY_IMAGES = 'JPEGImages/'
 
 # TFRecords convertion parameters.
 RANDOM_SEED = 4242
-SAMPLES_PER_FILES = 200
+SAMPLES_PER_FILES = 10
 
 
 def _process_image(directory, name):
@@ -80,7 +80,7 @@ def _process_image(directory, name):
     """
     # Read the image file.
     filename = directory + DIRECTORY_IMAGES + name + '.jpg'
-    image_data = tf.gfile.FastGFile(filename, 'r').read()
+    image_data = tf.gfile.FastGFile(filename, 'rb').read()
 
     # Read the XML annotation file.
     filename = os.path.join(directory, DIRECTORY_ANNOTATIONS, name + '.xml')

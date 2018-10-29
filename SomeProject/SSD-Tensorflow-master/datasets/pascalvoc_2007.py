@@ -27,6 +27,32 @@ ITEMS_TO_DESCRIPTIONS = {
     'object/label': 'A list of labels, one per each object.',
 }
 # (Images, Objects) statistics on every class.
+
+TRAIN_STATISTICS={
+    'none': (0, 0),
+    'DJI': (141, 142),        #样本和标签数，这个不是应该自动生成么，我这里是自己算的，我的数据集比较简单
+    'total':(141,142)
+}
+
+
+TEST_STATISTICS = {
+    'none': (0, 0),
+    'DJI': (1, 1),
+    'total':(1,1)
+}
+
+
+SPLITS_TO_SIZES = {
+    'train': 141,
+    'test': 16,
+}
+
+SPLITS_TO_STATISTICS = {
+    'train': TRAIN_STATISTICS,
+    'test': TEST_STATISTICS,
+}
+'''
+
 TRAIN_STATISTICS = {
     'none': (0, 0),
     'aeroplane': (238, 306),
@@ -51,6 +77,7 @@ TRAIN_STATISTICS = {
     'tvmonitor': (256, 324),
     'total': (5011, 12608),
 }
+'''
 TEST_STATISTICS = {
     'none': (0, 0),
     'aeroplane': (1, 1),
@@ -75,6 +102,8 @@ TEST_STATISTICS = {
     'tvmonitor': (1, 1),
     'total': (20, 20),
 }
+'''
+
 SPLITS_TO_SIZES = {
     'train': 5011,
     'test': 4952,
@@ -83,7 +112,9 @@ SPLITS_TO_STATISTICS = {
     'train': TRAIN_STATISTICS,
     'test': TEST_STATISTICS,
 }
-NUM_CLASSES = 20
+'''
+
+NUM_CLASSES = 1
 
 
 def get_split(split_name, dataset_dir, file_pattern=None, reader=None):
