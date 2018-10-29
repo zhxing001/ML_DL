@@ -126,7 +126,7 @@ def _add_to_tfrecord(dataset_dir, name, tfrecord_writer):
 def _get_output_filename(output_dir, name, idx):
     return '%s/%s_%03d.tfrecord' % (output_dir, name, idx)
 
-def run(dataset_dir, output_dir, name='voc_train', shuffling=False):
+def run(dataset_dir, output_dir, name='voc_2007_train', shuffling=False):
     if not tf.gfile.Exists(dataset_dir):
         tf.gfile.MakeDirs(dataset_dir)
 
