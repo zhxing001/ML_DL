@@ -30,8 +30,8 @@ ITEMS_TO_DESCRIPTIONS = {
 
 TRAIN_STATISTICS={
     'none': (0, 0),
-    'DJI': (141, 142),        #样本和标签数，这个不是应该自动生成么，我这里是自己算的，我的数据集比较简单
-    'total':(141,142)
+    'DJI': (34, 35),        #样本和标签数，这个不是应该自动生成么，我这里是自己算的，我的数据集比较简单
+    'total':(34,35)
 }
 
 
@@ -43,8 +43,8 @@ TEST_STATISTICS = {
 
 
 SPLITS_TO_SIZES = {
-    'train': 141,
-    'test': 16,
+    'train': 34,
+    'test': 8,
 }
 
 SPLITS_TO_STATISTICS = {
@@ -78,6 +78,7 @@ TRAIN_STATISTICS = {
     'total': (5011, 12608),
 }
 '''
+'''
 TEST_STATISTICS = {
     'none': (0, 0),
     'aeroplane': (1, 1),
@@ -104,6 +105,7 @@ TEST_STATISTICS = {
 }
 '''
 
+'''
 SPLITS_TO_SIZES = {
     'train': 5011,
     'test': 4952,
@@ -113,6 +115,7 @@ SPLITS_TO_STATISTICS = {
     'test': TEST_STATISTICS,
 }
 '''
+
 
 NUM_CLASSES = 1
 

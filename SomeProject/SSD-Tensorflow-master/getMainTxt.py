@@ -6,8 +6,9 @@ import os
 import random
 trainval_percent = 0.7
 train_percent = 0.8
-xmlfilepath ="C:\\Users\\zhxing\\Desktop\\VOCtrainval_06-Nov-2007\\VOCdevkit\\MyDate\\Annotations"
-txtsavepath ="C:\\Users\\zhxing\\Desktop\\VOCtrainval_06-Nov-2007\\VOCdevkit\\MyDate\\ImageSets\\Main"
+
+xmlfilepath ="VOC2007\\Annotations"
+txtsavepath ="VOC2007\\ImageSets\\Main"
 total_xml = os.listdir(xmlfilepath)
 num = len(total_xml)
 list = range(num)

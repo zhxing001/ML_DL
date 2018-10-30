@@ -63,8 +63,8 @@ DIRECTORY_ANNOTATIONS = 'Annotations/'
 DIRECTORY_IMAGES = 'JPEGImages/'
 
 # TFRecords convertion parameters.
-RANDOM_SEED = 4242
-SAMPLES_PER_FILES = 10
+RANDOM_SEED = 4212
+SAMPLES_PER_FILES = 5
 
 
 def _process_image(directory, name):

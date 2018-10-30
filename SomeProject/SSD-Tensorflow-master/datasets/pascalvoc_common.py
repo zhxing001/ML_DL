@@ -46,9 +46,10 @@ VOC_LABELS = {
     'tvmonitor': (20, 'Indoor'),
 }
 '''
+
 VOC_LABELS = {
     'none': (0, 'Background'),
-    'DJI': (1, 'Vehicle'),
+    'DJI': (1, 'Product'),
 }
 
 
