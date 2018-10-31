@@ -30,8 +30,8 @@ ITEMS_TO_DESCRIPTIONS = {
 
 TRAIN_STATISTICS={
     'none': (0, 0),
-    'DJI': (34, 35),        #样本和标签数，这个不是应该自动生成么，我这里是自己算的，我的数据集比较简单
-    'total':(34,35)
+    'DJI': (141, 142),        #样本和标签数，这个不是应该自动生成么，我这里是自己算的，我的数据集比较简单
+    'total':(141,142)
 }
 
 
@@ -43,7 +43,7 @@ TEST_STATISTICS = {
 
 
 SPLITS_TO_SIZES = {
-    'train': 34,
+    'train': 141,
     'test': 8,
 }
 
